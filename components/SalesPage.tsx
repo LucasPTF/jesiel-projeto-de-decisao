@@ -290,7 +290,14 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
 
       <section className="section paper guarantee-section">
         <div className="container guarantee-card">
-          <div className="guarantee-number">7</div>
+          <div className="guarantee-seal" aria-label="Garantia de reembolso por 7 dias">
+            <div className="guarantee-seal-core">
+              <span className="guarantee-seal-kicker">Garantia</span>
+              <strong>7</strong>
+              <span className="guarantee-seal-days">dias</span>
+              <span className="guarantee-seal-footer">Reembolso</span>
+            </div>
+          </div>
           <div>
             <p className="eyebrow">Redução de risco</p>
             <h2>Garantia de 7 dias.</h2>

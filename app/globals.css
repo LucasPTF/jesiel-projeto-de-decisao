@@ -750,11 +750,11 @@ summary:focus-visible {
 }
 
 .guarantee-seal strong {
-  margin: -2px 0 -8px;
-  font-family: var(--font-display), Georgia, serif;
-  font-size: 86px;
-  font-weight: 600;
-  line-height: 0.94;
+  margin: 7px 0 4px;
+  font-family: var(--font-sans), Arial, sans-serif;
+  font-size: 68px;
+  font-weight: 500;
+  line-height: 0.9;
 }
 
 .guarantee-seal-days {
